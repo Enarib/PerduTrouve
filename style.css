@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    position: relative;
+    max-width: 80px;
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style-type: none;
+}
+header ul li a{
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textBox{
+    position: relative;
+    max-width: 600%;
+}
+.content .textBox h2{
+    color: #333;
+    font-size: 3em;
+    font-weight: 500;
+    line-height: 1.4em;
+}
+.content .textBox h2 span{
+    color: #2271FF;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.content .imgBox{
+    width: 500px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 60px;
+}
+.content .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background : #3f3d56;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.content .imgBox img{
+    max-width: 550px;
+}
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #2271FF;
+    clip-path: circle(600px at right 700px);
+}
+
+/********************** A PROPOS *****************/
+.apropos{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+.div1{
+    flex-basis: 33%;
+    padding: 50px;
+}
+.div2{
+    flex-basis: 34%;
+    padding: 50px;
+}
+.div3{
+    flex-basis: 33%;
+    padding: 50px;
+}
+.apropos h2{
+    color: #333;
+    font-size: 3em;
+    font-weight: 500;
+    line-height: 1.4em;
+    text-align: center;
+}
+.apropos p{
+    text-align: justify;
+}
+.titre{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 80px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titre h2{
+    color: #333;
+    font-size: 3em;
+    font-weight: 500;
+    line-height: 1.4em;
+}
+
+/***********Contact***********/
+
+.contact{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+}
+.input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #484848;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+input{
+    border: 0;
+}
+.contact p a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #3f3d56;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
