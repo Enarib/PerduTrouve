@@ -165,13 +165,13 @@ header ul li a{
     width: 100%;
     background: transparent;
     border: 0;
-    border-bottom: 1px solid #484848;
     padding: 10px 0;
     margin-bottom: 30px;
     font-size: 14px;
 }
 input{
-    border: 0;
+    width: 100%;
+    padding: 10px;
 }
 .contact p a{
     display: inline-block;
