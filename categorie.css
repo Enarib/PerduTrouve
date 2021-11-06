@@ -1,0 +1,29 @@
+.categories {
+    display: flex;
+    width:  100%;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+.case {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #eee;
+    width: 270px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+}
+.categories img{
+    width: 60px;
+    height: 60px;
+}
+.categories p{
+    color: #3f3d56;
+    font-size: 1.1em;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgba(60, 60, 102, 0.15)
+}

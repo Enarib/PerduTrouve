@@ -1,28 +1,23 @@
+<?php 
+session_start();
+if(isset($_SESSION['username'])){
+
+}else{
+    header('Location:inscription.php');
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Accueil</title>
-    <link rel="stylesheet" href="Accueil.css">
+    <link rel="stylesheet" href="stylea.css">
 </head>
 <body>
     <section>
-        <header>
-            <ul>
-                <li><a href="">
-                    <img src="images/icon/home_black_24dp.svg" alt="">
-                </a></li>
-                <li><a href="#">
-                    <img src="images/icon/add_circle_outline_black_24dp.svg" alt="">
-                </a></li>
-                <li><a href="#">
-                    <img src="images/icon/emoji_objects_black_24dp.svg" alt="">
-                </a></li>
-                <li><a href="#">
-                    <img src="images/icon/account_circle_black_24dp.svg" alt="">
-                </a></li>
-            </ul>
-        </header>
+        <?php
+        require_once('header.php');
+        ?>
         <div class="espace">
             <div class="container">
                 <div class="gauche">
@@ -47,6 +42,7 @@
                 </div>
             </div>  
         </div>
+        <p class="deconnexion"><a href="deconnexion.php">Deconnexion</a></p>
     </section>
 </body>
 </html>

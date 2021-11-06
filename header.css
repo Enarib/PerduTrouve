@@ -1,0 +1,32 @@
+
+header{
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px 0;
+}
+header ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 15px;
+
+}
+header ul li{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    list-style-type: none;
+}
+header ul li img{
+    height: 30px;
+    width: 30px;
+}
+header ul li a{
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+}

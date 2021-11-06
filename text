@@ -1,0 +1,41 @@
+<div class="radio">
+    <div>
+        <label for="huey">Argent</label>
+        <input type="radio" name="drone" value="Argent" checked>
+    </div>
+    <div>
+        <label for="huey">documents</label>
+        <input type="radio" name="drone" value="Argent">
+    </div>
+    <div>
+        <label for="huey">Baggages</label>
+        <input type="radio" name="drone" value="Argent">
+    </div>
+    <div>
+        <label for="huey">Electronique</label>
+        <input type="radio" name="drone" value="Argent">
+    </div>
+    <div>
+        <label for="huey">Bijoux</label>
+        <input type="radio" name="drone" value="Argent">
+    </div>
+    <div>
+        <label for="huey">Habillements</label>
+        <input type="radio" name="drone" value="Argent">
+    </div>
+    <div>
+        <label for="huey">Animaux</label>
+        <input type="radio" name="drone" value="Argent">
+    </div>
+    <div>
+        <label for="huey">personnelles</label>
+        <input type="radio" name="drone" value="Argent">
+    </div>
+    <div>
+        <label for="huey">Sports</label>
+        <input type="radio" name="drone" value="Argent">
+    </div>
+    <div>
+        <label for="huey">Divers</label>
+        <input type="radio" name="drone" value="Argent">
+    </div>
